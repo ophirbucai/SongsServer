@@ -1,7 +1,7 @@
 import type { SongInterface } from "../interfaces/song.interface";
 import type { TrackType } from "../types/track.type";
 
-export class Song implements Song {
+export class Song implements SongInterface {
     name: string;
     artist: string;
     album: string;
